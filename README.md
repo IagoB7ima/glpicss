@@ -12,13 +12,7 @@
             width: 160px;
         }
      }   
-        
-    .page-anonymous {
-        .glpi-logo {
-            width: 0px;
-            height:0px;
-        }
-    }  
+          
         
 * css/includes/logo_.scss
 
@@ -56,4 +50,6 @@
         height: 100%;
     }
     
-* Pasta inteira pics
+* pics/logos
+
+* pics/favicon.ico
