@@ -56,4 +56,4 @@
         height: 100%;
     }
     
-    * Pasta inteira pics
+* Pasta inteira pics
