@@ -22,21 +22,21 @@
         
 * css/includes/logo_.scss
 
-$logo-light: "../pics/logos/logo-unisuam-branco-150.png" !default;
+    $logo-light: "../pics/logos/logo-unisuam-branco-150.png" !default;
 
-$logo-light-reduced: "../pics/logos/logo-G-unisuam-branco-100.png" !default;
+    $logo-light-reduced: "../pics/logos/logo-G-unisuam-branco-100.png" !default;
 
-$logo-dark: "../pics/logos/logo-GLPI-100-black.png" !default;
+    $logo-dark: "../pics/logos/logo-GLPI-100-black.png" !default;
 
-//$logo-dark-reduced: "../pics/logos/logo-G-100-black.png" !default;
+    //$logo-dark-reduced: "../pics/logos/logo-G-100-black.png" !default;
 
-$logo-dark-login: "../pics/logos/logo_unisuam_vertical.png" !default;
+    $logo-dark-login: "../pics/logos/logo_unisuam_vertical.png" !default;
 
-$logo-light-login: "../pics/logos/logo_unisuam_vertical.png" !default;
+    $logo-light-login: "../pics/logos/logo_unisuam_vertical.png" !default;
 
-$logo: $logo-light;
+    $logo: $logo-light;
 
-$logo_reduced: $logo-light-reduced;
+    $logo_reduced: $logo-light-reduced;
 
 * css/lib/tabler/core/src/scss/ui/_login.scss
 
@@ -55,3 +55,5 @@ $logo_reduced: $logo-light-reduced;
         background-position: center;
         height: 100%;
     }
+    
+    * Pasta inteira pics
