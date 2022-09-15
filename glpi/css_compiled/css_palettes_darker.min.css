@@ -1,34 +1,4 @@
 /**
- * ---------------------------------------------------------------------
- *
- * GLPI - Gestionnaire Libre de Parc Informatique
- *
- * http://glpi-project.org
- *
- * @copyright 2015-2022 Teclib' and contributors.
- * @copyright 2003-2014 by the INDEPNET Development Team.
- * @licence   https://www.gnu.org/licenses/gpl-3.0.html
- *
- * ---------------------------------------------------------------------
- *
- * LICENSE
- *
- * This file is part of GLPI.
- *
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <https://www.gnu.org/licenses/>.
- *
- * ---------------------------------------------------------------------
  */
 
 @charset "UTF-8";
@@ -20732,6 +20702,21 @@ Dimmer
   content: "...";
   animation: animated-dots 1.2s steps(4, jump-none) infinite;
 }
+.welcome-anonymous {
+  background-image: url("../pics/logos/fundo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+}
+.welcome-anonymous .container-tight {
+  width: auto;
+}
+.welcome-anonymous .container-tight .card {
+  width: 400px;
+}
+.welcome-anonymous .col-md-5 {
+  width: 100%;
+}
 .modal-content .btn-close {
   position: absolute;
   top: 0;
@@ -24688,7 +24673,7 @@ body .modal-content, body .modal-header {
   color: #f4f6fa !important;
 }
 .page-anonymous .glpi-logo {
-  --logo: url(../pics/logos/logo-GLPI-250-white.png) !important;
+  --logo: url(../pics/logos/logo_unisuam_vertical.png) !important;
 }
 .qtip-bootstrap, .popover .popover-body {
   background-color: #292828 !important;
@@ -24769,9 +24754,9 @@ body.iframed {
   overflow-x: hidden;
 }
 .page .glpi-logo {
-  background: url("../pics/logos/logo-GLPI-100-white.png") no-repeat;
+  background: url("../pics/logos/logo-unisuam-branco-150.png") no-repeat;
   height: 55px;
-  width: 100px;
+  width: 160px;
 }
 .page .page-body {
   margin-bottom: 0;
@@ -24847,10 +24832,8 @@ body.iframed {
   width: fit-content;
 }
 .page-anonymous .glpi-logo {
-  --logo: url(../pics/logos/logo-GLPI-250-black.png);
-  content: var(--logo);
-  width: 200px;
-  height: 110px;
+  width: 0px;
+  height: 0px;
 }
 table td.active, table td.tab_bg_4 {
   background-color: rgba(0, 0, 0, 0.1);
@@ -24980,7 +24963,7 @@ kbd {
   --animate-duration: 0.3s;
   --light: #aaa;
   --dark: #242323;
-  --logo: ../pics/logos/logo-GLPI-100-white.png;
+  --logo: ../pics/logos/logo-unisuam-branco-150.png;
   --contrast-light: #aaa;
   --contrast-dark: #242323;
   --light-mix: rgba(122, 121, 121, 0.24);
@@ -26462,7 +26445,7 @@ body .flatpickr-time input:hover, body .flatpickr-time .flatpickr-am-pm:hover, b
     width: calc(100% + var(--tblr-gutter-x, 1.5rem) * 2);
   }
   body.navbar-collapsed .navbar-brand .glpi-logo {
-    background: url("../pics/logos/logo-G-100-white.png") no-repeat;
+    background: url("../pics/logos/logo-G-unisuam-branco-100.png") no-repeat;
     background-size: contain;
     width: 40px;
     height: 40px;
